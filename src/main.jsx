@@ -8,6 +8,8 @@ import {
 import Root from './components/Root/Root';
 import Home from './components/Home/Home';
 import ErrorPage from './components/ErrorPage/ErrorPage';
+import TechVisionBlog from './components/TechVisionBlog/TechVisionBlog';
+import InnovationBlog from './components/InnovationBlog/InnovationBlog';
 
 
 const router = createBrowserRouter([
@@ -19,6 +21,14 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/blog/tech-vision",
+        element: <TechVisionBlog></TechVisionBlog>
+      },
+      {
+        path: "/blog/innovation",
+        element: <InnovationBlog></InnovationBlog>
       },
     ],
   },

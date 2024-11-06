@@ -26,7 +26,7 @@ const Navbar = () => {
                     </div>
                     <div className="end-nav">
                         <div className="hidden md:block">
-                            <button className="px-4 py-3 transition duration-500 ease-in-out bg-[#2081F9] hover:bg-[#F99820] text-white rounded">
+                            <button className="font-bold px-4 py-3 transition duration-500 ease-in-out bg-[#2081F9] hover:bg-[#F99820] text-white rounded">
                                 APPOINTMENT
                             </button>
                         </div>
