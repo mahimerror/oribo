@@ -1,3 +1,4 @@
+import About from "../About/About";
 import Banner from "../Banner/Banner";
 import LowerBanner from "../LowerBanner/LowerBanner";
 
@@ -6,7 +7,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <LowerBanner></LowerBanner>
-            fmhgyfiuyi
+            <About></About>
         </div>
     );
 };
