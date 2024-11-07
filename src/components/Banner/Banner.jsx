@@ -10,11 +10,12 @@ const Banner = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
+        autoplaySpeed: 10000,
     };
     return (
         <Slider {...settings} >
             <div>
-                <div className="card-1 flex items-center bg-cover bg-center bg-no-repeat py-40" style={{ backgroundImage: "url('https://i.ibb.co.com/71ZsXQQ/banner1.jpg')", }}>
+                <div className="card-1 flex items-center bg-cover bg-center bg-no-repeat py-40 max-h-[694px]" style={{ backgroundImage: "url('https://i.ibb.co.com/71ZsXQQ/banner1.jpg')", }}>
                     <div className="flex w-11/12 mx-auto">
                         <div className="md:w-2/3 lg:1/2 text-white">
                             <div className="flex mb-4">
@@ -40,7 +41,7 @@ const Banner = () => {
                 </div>
             </div>
             <div>
-                <div className="card-1 flex items-center bg-cover bg-center bg-no-repeat py-40" style={{ backgroundImage: "url('https://i.ibb.co.com/2tjfsQs/banner2.jpg')", }}>
+                <div className="card-1 flex items-center bg-cover bg-center bg-no-repeat py-40 max-h-[694px]" style={{ backgroundImage: "url('https://i.ibb.co.com/2tjfsQs/banner2.jpg')", }}>
                     <div className="flex w-11/12 mx-auto">
                         <div className="md:w-2/3 lg:1/2 text-white">
                             <div className="flex mb-4">

@@ -5,7 +5,7 @@ const TechVisionBlog = () => {
         Transforming Ideas into Technology
       </h1>
       <p className="text-gray-700 text-lg mb-6">
-        In today&apos;s digital era, every business strives to innovate. Yet, while many have fantastic ideas, turning those ideas into real-world technology that impacts users is where the challenge lies. At <span className="font-semibold">[Your Company Name]</span>, our mission is simple yet powerful: to transform ideas into technology. Here&apos;s a closer look at how we approach this transformation, combining creativity, agile processes, and cutting-edge technology.
+        In today&apos;s digital era, every business strives to innovate. Yet, while many have fantastic ideas, turning those ideas into real-world technology that impacts users is where the challenge lies. At <span className="font-semibold">Oribo</span>, our mission is simple yet powerful: to transform ideas into technology. Here&apos;s a closer look at how we approach this transformation, combining creativity, agile processes, and cutting-edge technology.
       </p>
 
       <h2 className="text-2xl font-semibold text-blue-600 mt-8 mb-4">

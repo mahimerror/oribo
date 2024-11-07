@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png"
 import { IoMdMenu } from "react-icons/io";
 import { RiCloseLargeLine } from "react-icons/ri";
@@ -13,7 +13,7 @@ const Navbar = () => {
             <nav className="w-11/12 mx-auto">
                 <div className="flex gap-5 justify-between items-center">
                     <div className="logo">
-                        <button><img src={logo} className="h-14 my-2" alt="Oribo" /></button>
+                        <Link to="/"><button><img src={logo} className="h-14 my-2" alt="Oribo" /></button></Link>
                     </div>
                     <div className="mid-nav hidden md:block font-semibold">
                         <ul className="flex gap-5">
