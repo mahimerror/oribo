@@ -1,0 +1,14 @@
+.right-banner{
+    background-image: url("https://i.ibb.co.com/3s2zx9G/banner3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.members{
+    color: #F99820;
+    line-height: 70px;
+    margin-bottom: 4px;
+    font-size: 70px;
+    font-weight: 600;
+}

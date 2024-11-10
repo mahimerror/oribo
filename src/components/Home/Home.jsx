@@ -3,6 +3,7 @@ import Banner from "../Banner/Banner";
 import Choose from "../Choose/Choose";
 import LowerBanner from "../LowerBanner/LowerBanner";
 import Services from "../Services/Services";
+import Wedo from "../Wedo/Wedo";
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <About></About>
             <Services></Services>
             <Choose></Choose>
+            <Wedo></Wedo>
         </div>
     );
 };
