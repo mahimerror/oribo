@@ -25,7 +25,7 @@ const About = () => {
                         <h3 className="font-semibold uppercase text-[28px]">02. Nifty team is a diverse network of consultants</h3>
                     </div>
 
-                    <div className="space-x-5">
+                    <div className="flex flex-col lsm:flex-row text-center gap-5">
                         <Link to='/blog/innovation' className="font-bold px-4 py-3 transition duration-500 ease-in-out bg-[#F99820] hover:bg-[#2081F9] text-white rounded"><button className="uppercase">More About Us</button></Link>
 
                         <Link to='/' className="font-bold px-4 py-3 transition duration-500 ease-in-out border-2 hover:bg-[#2081F9] hover:text-white hover:border-[#2081F9] rounded"><button className="uppercase">+880-1733-783956</button></Link>

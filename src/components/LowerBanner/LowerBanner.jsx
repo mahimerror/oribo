@@ -4,7 +4,7 @@ import { GoDotFill } from "react-icons/go";
 const LowerBanner = () => {
     return (
         <div className="border border-t-0 border-l-0 border-r-0">
-            <Marquee className="pt-8 pb-7">
+            <Marquee className="pt-8 pb-7" pauseOnHover="true">
                 <div className="">
                     <h2 className="font-bold text-xl uppercase">IT Solution</h2>
                 </div>
