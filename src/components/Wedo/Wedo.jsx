@@ -6,7 +6,7 @@ const Wedo = () => {
     return (
         <div>
             <div className="w-11/12 mx-auto my-24">
-                <div className="flex flex-col md:flex-row gap-10 mb-12">
+                <div className="flex flex-col-reverse md:flex-row gap-10 mb-12">
                     <div className="md:w-1/2">
                         <p className="uppercase bg-[#F4F9F6] inline-block text-sm font-semibold px-4 py-2 mb-2">What We Do</p>
 
@@ -53,7 +53,7 @@ const Wedo = () => {
                                 </div>
 
                                 <div className="mt-10">
-                                    <div className="space-x-5">
+                                    <div className="space-x-5 flex">
                                         <Link to='/blog/innovation' className="font-bold px-4 py-3 transition duration-500 ease-in-out bg-[#F99820] hover:bg-[#2081F9] text-white rounded"><button>READ MORE</button></Link>
 
                                         <Link to='/' className="font-bold px-4 py-3 transition duration-500 ease-in-out border-2 hover:bg-[#2081F9] hover:border-[#2081F9] text-black hover:text-white rounded"><button>APPOINTMENT</button></Link>
