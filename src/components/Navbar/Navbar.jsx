@@ -17,11 +17,11 @@ const Navbar = () => {
                     </div>
                     <div className="mid-nav hidden md:block font-semibold">
                         <ul className="flex gap-5">
-                            <NavLink className="transition duration-500 ease-in-out hover:text-[#2081F9]"><button>HOME</button></NavLink>
-                            <NavLink className="transition duration-500 ease-in-out hover:text-[#2081F9]"><button>SERVICES</button></NavLink>
-                            <NavLink className="transition duration-500 ease-in-out hover:text-[#2081F9]"><button>PROTFOLIO</button></NavLink>
-                            <NavLink className="transition duration-500 ease-in-out hover:text-[#2081F9]"><button>BLOGS</button></NavLink>
-                            <NavLink className="transition duration-500 ease-in-out hover:text-[#2081F9]"><button>CONTACT US</button></NavLink>
+                            <NavLink className="transition duration-500 ease-in-out hover:text-[#2081F9]" to="/"><button>HOME</button></NavLink>
+                            <NavLink className="transition duration-500 ease-in-out hover:text-[#2081F9]" to="/services"><button>SERVICES</button></NavLink>
+                            <NavLink className="transition duration-500 ease-in-out hover:text-[#2081F9]" to="/protfolio"><button>PROTFOLIO</button></NavLink>
+                            <NavLink className="transition duration-500 ease-in-out hover:text-[#2081F9]" to="/blogs"><button>BLOGS</button></NavLink>
+                            <NavLink className="transition duration-500 ease-in-out hover:text-[#2081F9]" to="/contact"><button>CONTACT US</button></NavLink>
                         </ul>
                     </div>
                     <div className="end-nav">
