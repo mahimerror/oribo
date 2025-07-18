@@ -9,8 +9,8 @@ const Banner = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
-    // autoplaySpeed: 10000,
+    autoplay: true,
+    autoplaySpeed: 10000,
   };
 
   return (
@@ -19,7 +19,7 @@ const Banner = () => {
     >
       <div className="h-[500px] md:h-[600px] lg:h-[694px]">
         <div
-          className="card-1 min-h-full flex flex-col items-center bg-cover bg-center bg-no-repeat"
+          className="card-1 min-h-full flex items-center bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: "url('https://i.ibb.co.com/71ZsXQQ/banner1.jpg')",
           }}
