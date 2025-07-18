@@ -31,7 +31,7 @@ const Banner = () => {
                             <div className="space-x-5">
                                 <Link to='/blog/tech-vision' className="font-bold px-4 py-3 transition duration-500 ease-in-out bg-[#F99820] hover:bg-[#2081F9] text-white rounded"><button>READ MORE</button></Link>
 
-                                <Link to='/' className="font-bold px-4 py-3 transition duration-500 ease-in-out border-2 hover:bg-[#2081F9] hover:border-[#2081F9] text-white rounded"><button>APPOINTMENT</button></Link>
+                                <Link to='/contact' className="font-bold px-4 py-3 transition duration-500 ease-in-out border-2 hover:bg-[#2081F9] hover:border-[#2081F9] text-white rounded"><button>APPOINTMENT</button></Link>
                             </div>
                         </div>
                         <div className="w-0 md:w-1/3 lg:1/2">
@@ -57,7 +57,7 @@ const Banner = () => {
                             <div className="space-x-5">
                                 <Link to='/blog/innovation' className="font-bold px-4 py-3 transition duration-500 ease-in-out bg-[#F99820] hover:bg-[#2081F9] text-white rounded"><button>READ MORE</button></Link>
 
-                                <Link to='/' className="font-bold px-4 py-3 transition duration-500 ease-in-out border-2 hover:bg-[#2081F9] hover:border-[#2081F9] text-white rounded"><button>APPOINTMENT</button></Link>
+                                <Link to='/contact' className="font-bold px-4 py-3 transition duration-500 ease-in-out border-2 hover:bg-[#2081F9] hover:border-[#2081F9] text-white rounded"><button>APPOINTMENT</button></Link>
                             </div>
                         </div>
                         <div className="w-0 md:w-1/3 lg:1/2">

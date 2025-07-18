@@ -56,7 +56,7 @@ const Wedo = () => {
                                     <div className="space-x-5 flex">
                                         <Link to='/blog/innovation' className="font-bold px-4 py-3 transition duration-500 ease-in-out bg-[#F99820] hover:bg-[#2081F9] text-white rounded"><button>READ MORE</button></Link>
 
-                                        <Link to='/' className="font-bold px-4 py-3 transition duration-500 ease-in-out border-2 hover:bg-[#2081F9] hover:border-[#2081F9] text-black hover:text-white rounded"><button>APPOINTMENT</button></Link>
+                                        <Link to='/contact' className="font-bold px-4 py-3 transition duration-500 ease-in-out border-2 hover:bg-[#2081F9] hover:border-[#2081F9] text-black hover:text-white rounded"><button>APPOINTMENT</button></Link>
                                     </div>
                                 </div>
                             </div>
